@@ -49,9 +49,9 @@ background-size: cover;
 .logo > button{
     border: none;
     padding: 1em;
-    color: #fff;
+    color: #000;
     font-weight: 400;
-    background:rgb(216, 84, 84);
+    background:rgba(194, 233, 251, 0.774);
     border-radius: 100px;
 }
 .contenedor-icon{
@@ -140,3 +140,42 @@ background-size: cover;
     font-size: 1.75em;
     
 }
+.bloques > span{
+    display: block;
+    width: 50px;
+    height: 1.5px;
+    background-color: #4aacda;
+}
+.bloques--quiensoy >h5{
+    font-size: 1.25em;
+    font-weight: 500;
+    margin: 2em 0 1em 0;
+}
+.bloques--quiensoy > button{
+    margin-top: 2em;
+    padding: 1.2em;
+    border: 2px solid #4aacda;
+    color: #000;
+    border-radius: 5px;
+    background: white ;
+}
+
+.bloques--personal >ul{
+    margin-top: 2em;
+    list-style: none;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.bloques--personal > ul > li >span{
+    font-weight: 400;
+}
+.personal-iconos{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2em;
+}
+.personal-iconos > li > a{
+    color: #4aacda;
+}
+.bloques--experiencias{}
