@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Dosis', sans-serif;
+    
 }
 
 .header{
@@ -178,4 +179,37 @@ background-size: cover;
 .personal-iconos > li > a{
     color: #4aacda;
 }
-.bloques--experiencias{}
+/*bloque experiencia*/
+
+
+
+
+.codificador{
+    width: 90%;
+    height: 1200px;
+    margin: 50px auto;
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.18);
+    padding: 60px;
+    
+}
+.contenedor-logo-codificador{
+    
+}
+
+
+.logo-codificador{
+    width: 100px;
+}
+
+.contenedor-rectangulo{
+    float: right;
+    width: 400px;
+    height: 900px;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+}
+.inosuke{
+    width: 300px;
+}
