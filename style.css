@@ -107,6 +107,8 @@ background-size: cover;
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    box-shadow: 0 5px 1px rgba(128, 128, 128, 0.13);
+    border: 10px solid white;
 }
 
 .contenedor-portafolio{
@@ -187,10 +189,13 @@ background-size: cover;
 .codificador{
     width: 90%;
     height: 1200px;
+    position: relative;
     margin: 50px auto;
-    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.18);
+    background: #F3F5FC;
     padding: 60px;
+    box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
+    -webkit-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
+    -moz-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
     
 }
 
@@ -200,14 +205,118 @@ background-size: cover;
     width: 100px;
 }
 
+.caja-texto{
+    position: absolute;
+    left: 350px;
+    top: 200px;
+}
+.textarea{
+    height: 552px;
+    width: 782px;
+    border: none;
+    background: #F3F5FC;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.aviso{
+    display: flex;
+    position: absolute;
+    left: 350px;
+    top: 900px;
+}
+
+.contenedor-btn{
+    display: flex;
+    position: absolute;
+    left: 350px;
+    bottom: 200px;
+    gap: 24px;
+}
+.btn-encriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 2px solid #4aacda;
+    background: #4aacda;
+    color: #fff;
+    font-size: 18px;
+}
+.btn-desencriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 2px solid #4aacda;
+    background: #fff;
+    font-size: 18px;
+}
+
+
 .contenedor-rectangulo{
     float: right;
     width: 400px;
     height: 900px;
-    border-radius: 10px;
-    background: white;
     text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
 }
 .inosuke{
-    width: 300px;
+    margin-top: 150px;
+    width: 250px;
+}
+
+.texto{
+    margin-top: 10px;
+    font-size: 24px;
+    line-height:2;
+    font-weight: 700;
+}
+.texto >p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.texto-desencriptar{
+    position: absolute;
+    width: 400px;
+    height: 900px;
+    right: 60px;
+    padding: 30px;
+}
+
+.btn-copiar{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 2px solid #4aacda;
+    background: #fff;
+    font-size: 18px;
+}
+
+
+.footer{
+    text-align: center;
+    background-image: url(/img-v2/bg.jpg);
+    padding: 10px;
+}
+.img-footer{
+    width: 100px;
+}
+
+.Copyright {
+    color: #fff;
+    font-size: 16px;
+    margin: 20px;
+    font-weight: 400;
+}
+.prf{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
 }
