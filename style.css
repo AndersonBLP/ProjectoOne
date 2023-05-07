@@ -50,10 +50,16 @@ background-size: cover;
 .logo > button{
     border: none;
     padding: 1em;
-    color: #000;
+    color: #fff;
     font-weight: 400;
-    background:rgba(194, 233, 251, 0.774);
+    background:#4aacdac4;
     border-radius: 100px;
+    transition: 300ms;
+}
+.logo > button:hover{
+    
+    background: #4aacda;
+    cursor: pointer;
 }
 .contenedor-icon{
     display: flex;
@@ -86,15 +92,20 @@ background-size: cover;
     margin: auto 100px;
     
 }
+
 .contenedor-sobre > li > a{
     text-decoration: none;
     font-size: 20px;
     font-weight:bold;
     color: rgba(0, 0, 0, 0.8);
     padding: 0.5rem 1rem;
+    transition: 300ms;
+}
+.contenedor-sobre >li > a:hover{
+    font-weight:initial;
+    color: #4aacda;
 
 }
-
 
 .contenedor-img2{
     position:absolute;
@@ -125,6 +136,12 @@ background-size: cover;
     font-weight:bold;
     color: rgba(0, 0, 0, 0.8);
     padding: 0.5rem 1rem;
+    transition: 300ms;
+}
+.contenedor-portafolio > li>a:hover{
+    font-weight:initial;
+    color: #4aacda;
+
 }
 .bloque-uno{
     width: 100%;
@@ -161,6 +178,12 @@ background-size: cover;
     color: #000;
     border-radius: 5px;
     background: white ;
+    transition: 300ms;
+}
+.bloques--quiensoy > button:hover{
+    background:#4aacda;
+    color: #fff;
+    cursor: pointer;
 }
 
 .bloques--personal >ul{
@@ -286,6 +309,13 @@ background-size: cover;
     right: 60px;
     padding: 30px;
 }
+.resultado{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+}
 
 .btn-copiar{
     position: absolute;
@@ -297,6 +327,7 @@ background-size: cover;
     border: 2px solid #4aacda;
     background: #fff;
     font-size: 18px;
+    display: none;
 }
 
 
@@ -319,4 +350,12 @@ background-size: cover;
     color: #fff;
     font-size: 18px;
     font-weight: 700;
+}
+
+.ocultar{
+    display: none;
+}
+
+.activar{
+    display: block;
 }
