@@ -261,9 +261,15 @@ background-size: cover;
     height: 67px;
     border-radius: 24px;
     border: 2px solid #4aacda;
-    background: #4aacda;
+    background: #4aacdace;
     color: #fff;
     font-size: 18px;
+    transition: 300ms;
+}
+.btn-encriptar:hover{
+    background: #4aacda;
+    font-size: 20px;
+    cursor: pointer;
 }
 .btn-desencriptar{
     width: 328px;
@@ -272,6 +278,12 @@ background-size: cover;
     border: 2px solid #4aacda;
     background: #fff;
     font-size: 18px;
+    transition: 300ms;
+}
+.btn-desencriptar:hover{
+    background: #dee2e6;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -328,6 +340,13 @@ background-size: cover;
     background: #fff;
     font-size: 18px;
     display: none;
+    transition: 300ms;
+}
+.btn-copiar:hover{
+    color: #fff;
+    background: #4aacda;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 
