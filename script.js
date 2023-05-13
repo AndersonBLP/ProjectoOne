@@ -18,30 +18,36 @@ function ocultarDiv(){
     parrafoMuneco.classList.add("ocultar")
     parrafoMuneco2.classList.add("ocultar")
     copy.classList.add("activar")
-
 }
+
 // llamando a encriptar
 function encriptar(){
-    ocultarDiv();
-    var textarea = recuperarTexto();
-    resultado.textContent = encriptarTexto(textarea)
-    
-}
-// llamando desencriptar
-function desencriptar() {
-    ocultarDiv();
-    var textarea = recuperarTexto();
-    resultado.textContent = desencriptarTexto(textarea)
+    var texto = recuperarTexto();
+    if (texto.trim() === "") {
+        alert("Ingresa un texto para encriptar.");
+    } else {
+        ocultarDiv();
+        resultado.textContent = encriptarTexto(texto);
+    }
 }
 
-// recuperar texto esxrito
+// llamando a desencriptar
+function desencriptar() {
+    var texto = recuperarTexto();
+    if (texto.trim() === "") {
+        alert("Aún no has encriptado nada para desencriptar.");
+    } else {
+        ocultarDiv();
+        resultado.textContent = desencriptarTexto(texto);
+    }
+}
+
+// recuperar texto escrito
 function recuperarTexto(){
     return textarea.value;
 }
 
-
 // salida del encriptado
-
 function encriptarTexto(mensaje){
     var texto = mensaje;
     var textoFinal= "";
@@ -68,6 +74,7 @@ function encriptarTexto(mensaje){
     }
     return textoFinal;
 }
+
 // salida del desencriptado
 function desencriptarTexto(mensaje){
     var texto = mensaje;
@@ -100,6 +107,9 @@ function desencriptarTexto(mensaje){
     }
     return textoFinal;
 }
+
+
+
 
 // evento para copiar texto encriptado
 const btnCopiar = document.querySelector(".btn-copiar");

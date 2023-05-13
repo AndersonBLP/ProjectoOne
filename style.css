@@ -353,11 +353,16 @@ background-size: cover;
 }
 
 .seccion3{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     width: 90%;
     height: 30%;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
+    box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
+    -webkit-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
+    -moz-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
 }
 .seccion3 >h3{
     font-size: 2em;
