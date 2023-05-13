@@ -13,7 +13,8 @@ botonDesencriptar.onclick = desencriptar;
 
 
 // ocultar contenido 
-function ocultarDiv(){
+function ocultarDiv()
+{
     muneco.classList.add("ocultar")
     parrafoMuneco.classList.add("ocultar")
     parrafoMuneco2.classList.add("ocultar")
@@ -21,7 +22,8 @@ function ocultarDiv(){
 }
 
 // llamando a encriptar
-function encriptar(){
+function encriptar()
+{
     var texto = recuperarTexto();
     if (texto.trim() === "") {
         alert("Ingresa un texto para encriptar.");
@@ -32,7 +34,8 @@ function encriptar(){
 }
 
 // llamando a desencriptar
-function desencriptar() {
+function desencriptar() 
+{
     var texto = recuperarTexto();
     if (texto.trim() === "") {
         alert("Aún no has encriptado nada para desencriptar.");
@@ -43,12 +46,14 @@ function desencriptar() {
 }
 
 // recuperar texto escrito
-function recuperarTexto(){
+function recuperarTexto()
+{
     return textarea.value;
 }
 
 // salida del encriptado
-function encriptarTexto(mensaje){
+function encriptarTexto(mensaje)
+{
     var texto = mensaje;
     var textoFinal= "";
 
@@ -76,7 +81,8 @@ function encriptarTexto(mensaje){
 }
 
 // salida del desencriptado
-function desencriptarTexto(mensaje){
+function desencriptarTexto(mensaje)
+{
     var texto = mensaje;
     var textoFinal = "";
 
@@ -113,7 +119,8 @@ function desencriptarTexto(mensaje){
 
 // evento para copiar texto encriptado
 const btnCopiar = document.querySelector(".btn-copiar");
-btnCopiar.addEventListener("click", copiar = () => { alert("texto copiado")
+btnCopiar.addEventListener("click", copiar = () => 
+{ alert("texto copiado")
 var contenido = document.querySelector(".resultado").textContent;
 navigator.clipboard.writeText(contenido);
 })

@@ -3,15 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Dosis', sans-serif;
-    
+    background-image: linear-gradient(to top, #537895 0%, #09203f 100%);
+}
+
+.contenedor-total{
+    width: 90%;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 1px 0px 61px 5px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 1px 0px 61px 5px rgba(0,0,0,0.69);
+    -moz-box-shadow: 1px 0px 61px 5px rgba(0,0,0,0.69);
 }
 
 .header{
 position: relative;
 height: 80vh;
-background-image:-webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img-v2/FondoPrinciapl.jpg);
+border-top-left-radius:26px ;
+border-top-right-radius:26px ;
+background-image:-webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img-v2/FondoPrinciapl.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -24,29 +37,29 @@ background-size: cover;
     line-height: 1.2;
     color: #fff;
 }
+
 .logo > h4{
-    
     font-weight: 200;
     font-size: 3em;
-    
 }
+
 .logo > h1{
     font-weight: 600;
     font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
 }
+
 .logo > h6{
     letter-spacing: 5px;
     font-weight: 400;
     font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
     margin-bottom: 25px;
-    
-
 }
+
 .logo >h6 >span{
     border-left: 2px solid white;
     padding: 0 5px 0 5px;
-    
 }
+
 .logo > button{
     border: none;
     padding: 1em;
@@ -58,8 +71,8 @@ background-size: cover;
     border-radius: 100px;
     transition: 300ms;
 }
+
 .logo > button:hover{
-    
     background: #4aacda;
     cursor: pointer;
 }
@@ -70,8 +83,8 @@ background-size: cover;
     list-style: none;
     margin-left: 15%;
     padding-top: 15px;
-    
 }
+
 .contenedor-icon > li > a{
     font-size: 25px;
     color: #ffffffb7;
@@ -92,7 +105,6 @@ background-size: cover;
     width: 40% ;
     list-style: none;
     margin: auto 100px;
-    
 }
 
 .contenedor-sobre > li > a{
@@ -103,6 +115,7 @@ background-size: cover;
     padding: 0.5rem 1rem;
     transition: 300ms;
 }
+
 .contenedor-sobre >li > a:hover{
     font-weight:initial;
     color: #4aacda;
@@ -112,16 +125,13 @@ background-size: cover;
 .contenedor-img2{
     position:absolute;
     left: 45%;
-    top: 75%;
+    top: 77%;
     list-style: none;
-    
 }
+
 .img2{
-    border-radius: 50%;
     width: 150px;
     height: 150px;
-    box-shadow: 0 5px 1px rgba(128, 128, 128, 0.13);
-    border: 10px solid #fff;
 }
 
 .contenedor-portafolio{
@@ -132,6 +142,7 @@ background-size: cover;
     list-style: none;
     margin: auto 100px;
 }
+
 .contenedor-portafolio > li >a{
     text-decoration: none;
     font-size: 20px;
@@ -140,39 +151,44 @@ background-size: cover;
     padding: 0.5rem 1rem;
     transition: 300ms;
 }
+
 .contenedor-portafolio > li>a:hover{
     font-weight:initial;
     color: #4aacda;
-
 }
+
 .bloque-uno{
     width: 100%;
     display: flex;
     justify-content:space-between;
     border-bottom: 1px solid #dee2e6;
 }
+
 .bloques{
     width: 34%;
     padding: 60px;
     border-right: 1px solid #dee2e6;
     line-height: 1.5;
 }
+
 .bloques > h3{
     font-weight:500;
     font-size: 2em;
-    
 }
+
 .bloques > span{
     display: block;
     width: 50px;
     height: 1.5px;
     background-color: #4aacda;
 }
+
 .bloques--quiensoy >h5{
     font-size: 1.2em;
     font-weight: 500;
     margin: 1em 0 1em 0;
 }
+
 .bloques--quiensoy > button{
     margin-top: 2em;
     padding: 1.2em;
@@ -182,6 +198,7 @@ background-size: cover;
     background: white ;
     transition: 300ms;
 }
+
 .bloques--quiensoy > button:hover{
     background:#4aacda;
     color: #fff;
@@ -199,33 +216,28 @@ background-size: cover;
     font-weight: 400;
     
 }
+
 .personal-iconos{
     display: flex;
     gap: 20px;
     font-size: 1.2em;
 }
+
 .personal-iconos > li > a{
     color: #4aacda;
 }
-/*bloque experiencia*/
 
+.bloques--experiencias > p{
+    margin-top: 2em;
+}
 
-
-
+/*Codificador secion */
 .codificador{
-    width: 90%;
     height: 1200px;
     position: relative;
     margin: 50px auto;
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     padding: 60px;
-    box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
-    -webkit-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
-    -moz-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
-    
 }
-
-
 
 .logo-codificador{
     width: 100px;
@@ -236,6 +248,7 @@ background-size: cover;
     left: 350px;
     top: 200px;
 }
+
 .textarea{
     height: 552px;
     width: 782px;
@@ -259,6 +272,7 @@ background-size: cover;
     bottom: 200px;
     gap: 24px;
 }
+
 .btn-encriptar{
     width: 328px;
     height: 67px;
@@ -269,11 +283,13 @@ background-size: cover;
     font-size: 18px;
     transition: 300ms;
 }
+
 .btn-encriptar:hover{
     background: #4aacda;
     font-size: 20px;
     cursor: pointer;
 }
+
 .btn-desencriptar{
     width: 328px;
     height: 67px;
@@ -283,12 +299,12 @@ background-size: cover;
     font-size: 18px;
     transition: 300ms;
 }
+
 .btn-desencriptar:hover{
     background: #dee2e6;
     font-size: 20px;
     cursor: pointer;
 }
-
 
 .contenedor-rectangulo{
     float: right;
@@ -298,8 +314,8 @@ background-size: cover;
     background: none;
     box-shadow: 0px 24px 32px 8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-    
 }
+
 .inosuke{
     margin-top: 150px;
     width: 250px;
@@ -311,6 +327,7 @@ background-size: cover;
     line-height:2;
     font-weight: 700;
 }
+
 .texto >p{
     font-size: 16px;
     font-weight: 400;
@@ -324,6 +341,7 @@ background-size: cover;
     right: 60px;
     padding: 30px;
 }
+
 .resultado{
     font-style: normal;
     font-weight: 700;
@@ -345,6 +363,7 @@ background-size: cover;
     display: none;
     transition: 300ms;
 }
+
 .btn-copiar:hover{
     color: #fff;
     background: #4aacda;
@@ -353,29 +372,26 @@ background-size: cover;
 }
 
 .seccion3{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-    width: 90%;
     height: 30%;
-    margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 50px;
     text-align: center;
-    box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
-    -webkit-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
-    -moz-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.27);
-}
-.seccion3 >h3{
-    font-size: 2em;
 }
 
+.seccion3 >h3{
+    font-size: 2em;
+    margin-bottom: 50px;
+}
 
 .footer{
     text-align: center;
-    background-image: url(/img-v2/bg.jpg);
+    background-image: url(img-v2/bg.jpg);
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
+
 .img-footer{
-    width: 100px;
+    width: 50px;
 }
 
 .Copyright {
@@ -384,6 +400,7 @@ background-size: cover;
     margin: 20px;
     font-weight: 400;
 }
+
 .prf{
     color: #fff;
     font-size: 18px;
@@ -397,5 +414,3 @@ background-size: cover;
 .activar{
     display: block;
 }
-
-
