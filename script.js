@@ -125,3 +125,11 @@ var contenido = document.querySelector(".resultado").textContent;
 navigator.clipboard.writeText(contenido);
 })
 
+
+
+// sention 3 juego
+
+var pizzarra = document.querySelector("canvas");
+var pincel = pizzarra.getContext("2d");
+pincel.fillStyle = "gray";
+pincel.fillRect(0, 0, 90, 400)
